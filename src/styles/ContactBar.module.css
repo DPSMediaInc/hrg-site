@@ -1,0 +1,41 @@
+.body {
+  font-family: 'Nanum Gotchic', sans-serif;
+}
+
+.contactBar {
+  display: flex;
+  vertical-align: middle;
+  justify-content: space-between;
+  position: sticky;
+  width: 100%;
+  margin: 0 auto 0 auto;
+  height: fit-content;
+  padding: 0;
+  font-size: 12px;
+  border-width: 0;
+  max-width: 1080px;
+  background-color: indigo;
+}
+
+.contactlinks {
+  display: flex;
+  list-style: none;
+  text-align: center;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 0;
+  padding: 0;
+  border-width: 0;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:focus,
+a:active {
+  display: inline-flex;
+  padding: 10px 15px;
+  color: white;
+  margin: 0;
+  text-decoration: none;
+}

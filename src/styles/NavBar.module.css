@@ -1,0 +1,81 @@
+body {
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+header {
+  font-family: 'Nanum Gotchic', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1080px;
+  position: sticky;
+}
+
+.header_container {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #000;
+  padding: 0;
+  width: 100%;
+  max-width: 1080px;
+  margin: auto;
+  height: fit-content;
+}
+
+.logo {
+  margin-left: 5%;
+  margin-top: 0;
+}
+
+.logo img {
+  display: block;
+  margin: 0;
+}
+
+nav {
+  margin: 1.5em 0 0 5%;
+  color: black;
+}
+
+header ul li {
+  display: inline;
+  padding: 0 1.4em 0 0;
+  font-size: 0.9em;
+  color: black;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+li a:link {
+  color: yellowgreen;
+}
+
+li a:active {
+  color: #000000;
+  border-bottom: 2px solid #000000;
+  font-weight: 300;
+}
+
+li a:hover {
+  color: rebeccapurple;
+}
+
+@media screen and (min-width: 600px) {
+  .header_container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .logo {
+    margin-left: 2.3em;
+  }
+
+  nav {
+    align-self: center;
+    margin: 0 0.8em 0 0;
+  }
+}
