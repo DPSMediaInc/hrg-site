@@ -1,0 +1,36 @@
+* {
+  font-family: 'Nanum Gotchic', sans-serif;
+}
+
+.splash {
+  width: 100%;
+  max-width: 1080p;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  align-self: center;
+  width: 100%;
+  margin: 0 0;
+}
+
+h1 {
+  position: absolute;
+  top: 85%;
+  left: 10%;
+  transform: translate(0, -50%);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 8vh;
+}
+
+h2 {
+  position: absolute;
+  top: 75%;
+  left: 10%;
+  transform: translate(0, -50%);
+  color: white;
+  font-weight: 400;
+  font-size: 6vh;
+}

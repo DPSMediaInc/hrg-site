@@ -1,12 +1,12 @@
 import React from 'react';
-import ContactBar from '../components/ContactBar';
+import MainSplash from '../components/MainSplash';
 import NavBar from '../components/NavBar';
 
 export default function Home() {
   return (
     <div className='home'>
-      <ContactBar />
       <NavBar />
+      <MainSplash />
     </div>
   );
 }

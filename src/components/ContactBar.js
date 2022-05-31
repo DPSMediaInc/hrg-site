@@ -3,10 +3,10 @@ export default function ContactBar() {
   return (
     <div className={styles.contactBar}>
       <ul className={styles.contactlinks}>
-        <li className={styles.navitem}>
+        <li className={styles.contact_item}>
           <a href='tel:3142058711'>314.205.8711</a>
         </li>
-        <li className={styles.navitem}>
+        <li className={styles.contact_item}>
           <a href='mailto:info@hrg411.com'>info@hrg411.com</a>
         </li>
       </ul>
