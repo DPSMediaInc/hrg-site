@@ -8,9 +8,9 @@ export default function MainSplash() {
       <div className={styles.splash_text}>
         <h2>We don't sell leads,</h2>
         <h1>We deliver jobs!</h1>
-        <div className={styles.splash_btn}>
-          <button>Learn More</button>
-          <button>Contact Us</button>
+        <div className={styles.splash_btn_c}>
+          <button className={styles.splash_btn}>Learn More</button>
+          <button className={styles.splash_btn}>Contact Us</button>
         </div>
       </div>
     </div>
