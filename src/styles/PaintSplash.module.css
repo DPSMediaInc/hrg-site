@@ -1,0 +1,21 @@
+.paintSplash {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+
+.paintImg {
+  width: 100%;
+  max-width: 1080px;
+}
+
+.paintText {
+  font-size: 1.4rem;
+  text-align: center;
+  max-width: 1080px;
+}
+
+.ital {
+  font-style: italic;
+}
