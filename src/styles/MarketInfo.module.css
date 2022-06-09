@@ -4,6 +4,7 @@
   justify-content: space-around;
   margin: 0;
   background-color: darkblue;
+  background-image: url('../assets/background.jpg');
   color: white;
 }
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import Different from '../components/Different';
 import MainSplash from '../components/MainSplash';
 import MarketInfo from '../components/MarketInfo';
 import NavBar from '../components/NavBar';
@@ -13,6 +14,7 @@ export default function Home() {
       <PaintSplash />
       <MarketInfo />
       <NoRisk />
+      <Different />
     </div>
   );
 }

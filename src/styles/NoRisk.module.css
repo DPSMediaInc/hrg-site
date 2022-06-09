@@ -1,0 +1,24 @@
+.noRiskContainer {
+  display: flex;
+  flex: 1 1 0;
+  align-items: center;
+  justify-content: space-between;
+  background-color: antiquewhite;
+}
+
+.repairImg {
+  width: 100%;
+}
+
+.noRiskHeader {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+}
+
+.noRiskText {
+  margin: 10rem;
+  font-size: 1.3rem;
+  text-align: center;
+}
